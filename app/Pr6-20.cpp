@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-// Gobal constant.
+// Global constant.
 const int BIRDS = 500;
 
 // Function prototype
@@ -24,6 +24,6 @@ int main()
 void california()
 {
    const int BIRDS = 10000;
-   cout << "In california there are " << BIRDS
+   cout << "Outside of california there are " << ::BIRDS
         << " birds.\n";
 } 
