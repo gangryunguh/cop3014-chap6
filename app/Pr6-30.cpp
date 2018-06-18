@@ -17,7 +17,7 @@ int main()
         << "Calling the showFees function with arguments "
         << ADULT << " and 10.\n";
    showFees(ADULT, 10);
-   
+
    // Perform a test for senior citizen membership.
    cout << "\nTesting a senior citizen membership...\n"
         << "Calling the showFees function with arguments "

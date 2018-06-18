@@ -24,6 +24,6 @@ int main()
 void california()
 {
    const int BIRDS = 10000;
-   cout << "Outside of california there are " << ::BIRDS
+   cout << "Outside of california there are " << BIRDS
         << " birds.\n";
 } 

@@ -4,11 +4,11 @@
 #include <cstdlib>   // Needed for the exit function
 using namespace std;
 
-void function();  // Function prototype
+void function1();  // Function prototype
 
 int main()
 {
-   function();
+   function1();
    return 0;
 }
 
@@ -17,11 +17,11 @@ int main()
 // to terminate a program from a function other than main.  *
 //***********************************************************
 
-void function()
+void function1()
 {
    cout << "This program terminates with the exit function.\n";
    cout << "Bye!\n";
-   exit(0);
+   exit(EXIT_FAILURE);
    cout << "This message will never be displayed\n";
    cout << "because the program has already terminated.\n";
 }
