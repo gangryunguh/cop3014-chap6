@@ -28,11 +28,3 @@ int main()
 // This function changes the value of the parameter myValue.   *
 //**************************************************************
 
-void changeMe(int myValue)
-{
-   // Change the value of myValue to 0.
-   myValue = 0;
-   
-   // Display the value in myValue.
-   cout << "Now the value is " << myValue << endl;
-}

@@ -24,7 +24,3 @@ int main()
 // It uses three integer parameters. Their sum is displayed. *
 //************************************************************
 
-void showSum(int num1, int num2, int num3)
-{
-   cout << (num1 + num2 + num3) << endl;
-}

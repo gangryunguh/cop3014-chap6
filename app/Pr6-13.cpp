@@ -36,14 +36,9 @@ int main()
 // the circle and then returns that number as a double.*
 //******************************************************
 
-double getRadius()
-{
-   double rad;
 
-   cout << "Enter the radius of the circle: ";
-   cin >> rad;
-   return rad;
-}
+
+
 
 //******************************************************
 // Definition of function square.                      *
@@ -51,7 +46,4 @@ double getRadius()
 // the square of the argument as a double.             *
 //******************************************************
 
-double square(double number)
-{
-   return number * number;
-}
+

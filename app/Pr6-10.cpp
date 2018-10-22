@@ -84,8 +84,3 @@ void showMenu()
 // number of months. The function displays the total charges.     *
 //*****************************************************************
 
-void showFees(double memberRate, int months)
-{
-    cout << "The total charges are $"
-         << (memberRate * months) << endl;
-}

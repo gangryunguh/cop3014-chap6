@@ -23,7 +23,3 @@ int main()
 // in refVar is doubled.                                   *
 //**********************************************************
 
-void doubleNum (int &refVar)
-{
-   refVar *= 2;
-}

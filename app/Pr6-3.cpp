@@ -7,20 +7,17 @@ using namespace std;
 // This function displays a message.      *
 //*****************************************
 
-void first()
-{
-   cout << "I am now inside the function first.\n";
-}
+
+
 
 //*****************************************
 // Definition of function second          *
 // This function displays a message.      *
 //*****************************************
 
-void second()
-{
-   cout << "I am now inside the function second.\n";
-}
+
+
+
 
 //*****************************************
 // Function main                          *

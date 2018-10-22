@@ -19,12 +19,8 @@ int main() {
 
 string binary(long n) {
     string b = "";
-    while (n != 0) {
-        if (n % 2)
-            b = "1" + b;
-        else
-            b = "0" + b;
-        n >>= 1;
-    }
+    // implement with a loop
+
+
     return b;
 }

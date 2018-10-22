@@ -2,9 +2,8 @@
 #include <iostream>
 using namespace std;
 
-// Function Prototypes
-void first();
-void second();
+// Prepare Function Prototypes to avoid compilation error
+
 
 int main()
 {

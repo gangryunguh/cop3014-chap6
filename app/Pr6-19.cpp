@@ -49,18 +49,9 @@ int main()
 // employee's pay for non-overtime hours.        *
 //************************************************
 
-double getBasePay(double hoursWorked)
-{
-   double basePay; // To hold base pay
-   
-   // Determine base pay.
-   if (hoursWorked > BASE_HOURS)
-      basePay = BASE_HOURS * PAY_RATE;
-   else
-      basePay = hoursWorked * PAY_RATE;
 
-   return basePay;
-}
+
+
 
 //*************************************************
 // The getOvertimePay function accepts the number *
@@ -68,18 +59,6 @@ double getBasePay(double hoursWorked)
 // employee's overtime pay.                       *
 //*************************************************
 
-double getOvertimePay(double hoursWorked)
-{
-   double overtimePay; // To hold overtime pay
-   
-   // Determine overtime pay.
-   if (hoursWorked > BASE_HOURS)
-   {
-      overtimePay = (hoursWorked - BASE_HOURS) * 
-               PAY_RATE * OT_MULTIPLIER;
-   }
-   else
-      overtimePay = 0.0;
 
-   return overtimePay;
-}
+
+

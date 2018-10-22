@@ -29,10 +29,9 @@ int main()
 // square of number as an int.                                 *
 //**************************************************************
 
-int square(int number)
-{
-   return number * number;
-}
+
+
+
 
 //***************************************************************
 // Definition of overloaded function square.                    *
@@ -40,7 +39,4 @@ int square(int number)
 // the square of number as a double.                            *
 //***************************************************************
 
-double square(double number)
-{
-   return number * number;
-}
+

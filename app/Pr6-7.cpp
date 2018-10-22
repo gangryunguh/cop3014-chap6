@@ -21,7 +21,3 @@ int main()
 // It uses an integer parameter whose value is displayed. *
 //*********************************************************
 
-void displayValue(int num)
-{
-   cout << "The value is " << num << endl;
-}

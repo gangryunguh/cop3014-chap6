@@ -28,14 +28,3 @@ int main()
 // returns true if the argument is even or false if the argument  *
 // is odd. The return value is an bool.                           *
 //*****************************************************************
-
-bool isEven(int number)
-{
-   bool status;
-
-   if (number % 2 == 0)
-      status = true;  // number is even if there is no remainder.
-   else
-      status = false; // Otherwise, the number is odd.
-   return status;
-}

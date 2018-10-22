@@ -7,10 +7,9 @@ using namespace std;
 // This function displays a greeting.     *
 //*****************************************
 
-void displayMessage()
-{
-   cout << "Hello from the function displayMessage.\n";
-}
+
+
+
 
 //*****************************************
 // Function main                          *
